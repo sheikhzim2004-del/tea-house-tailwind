@@ -173,21 +173,21 @@
     </section>
 
     <!-- Footer Section -->
-    <footer class="bg-amber-200">
+    <footer class="bg-linear-to-r from-[#FF8938]/10 to-[#FF0000]/10">
         <div class="container mx-auto py-[130px]">
             <!-- footer head -->
-            <div class="flex justify-between mb-[100px]">
+            <div class="flex flex-col items-center gap-4 sm:flex sm:flex-row sm:justify-between mb-[100px]">
                 <img src="./images/cup.png" alt="">
                 <div class="flex items-center gap-5">
                     <p class="font-medium text-5">Ready to get strated?</p>
                     <button
-                        class="py-3.5 px-5 text-white bg-linear-to-r from-[#FF8938] to-[#FF0000] rounded-xl mr-[65px]">Explore
+                        class="py-3.5 px-5 text-white bg-linear-to-r from-[#FF8938] to-[#FF0000] rounded-xl mr-2.5 sm:mr-[65px]">Explore
                         More
                     </button>
                 </div>
             </div>
             <!-- footer container -->
-            <div class="grid grid-cols-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center sm:text-left">
                 <!-- footer links 01 -->
                 <ul class="space-y-2">
                     <li class="font-semibold text-xl text-[#1C1C1C]">Quick Links</li>
@@ -213,15 +213,17 @@
                 <!-- footer links 04 -->
                 <div>
                     <h2 class="text-2xl font-semibold text-[#1C1C1C] mb-10">Subscribe to our newsletter</h2>
-                    <input type="text" placeholder="Email address">
-                    <button class="py-3.5 px-5 text-white bg-linear-to-r from-[#FF8938] to-[#FF0000] rounded-full flex items-center justify-center inline-flex"><i
-                            class="fa-solid fa-greater-than text-xs"></i>
-                    </button>
+                    <div class="flex gap-3 mx-5 sm:mx-0">
+                        <input type="email" placeholder="Email address" class="w-full p-2">
+                        <button class="py-3.5 px-5 text-white bg-linear-to-r from-[#aee0c3] to-[#01fd38] rounded-full flex items-center justify-center"><i
+                                class="fa-solid fa-greater-than text-xs"></i>
+                        </button>
+                    </div>
                     <!-- horizontal line -->
-                    <hr class="mt-5 mb-12 border-0 h-1 bg-black">
+                    <hr class="mt-5 mb-12 border-0 h-1 bg-black mx-5 sm:mx-0">
                     <div>
 
-                        <ul class="flex gap-6">
+                        <ul class="flex justify-center sm:justify-start gap-6">
                             
                             <li><a href="" class="text-2xl"><i class="fa-brands fa-facebook"></i></a></li>
                             <li><a href="" class="text-2xl"><i class="fa-brands fa-twitter"></i></a></li>
@@ -230,7 +232,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center mt-[60px]"><p>© 2027 UIDesign.to - All rights reserved.</p></div>
+            <div class="flex justify-center mt-[60px] text-[#777777]"><p>© 2027 UIDesign.to - All rights reserved.</p></div>
         </div>
     </footer>
 </body>
